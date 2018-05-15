@@ -1,0 +1,37 @@
+// Form Controls
+// -------------------------------------------------------------------------- */
+.form-control {
+  box-shadow: 0 1px 2px $gray-200;
+
+  &::placeholder {
+    color: $gray-300;
+  }
+}
+
+.col-form-label {
+  font-weight: 500;
+}
+
+.form-check-label {
+  font-size: 0.9375rem;
+  color: $gray-800;
+}
+
+.form-check-input {
+  margin-top: 0.35rem;
+}
+
+.StripeElement {
+  @extend .form-control;
+
+  padding: 9px 12px;
+
+  &--focus {
+    border-color: $input-focus-border-color;
+    box-shadow: $input-focus-box-shadow;
+  }
+
+  &--invalid {
+    border-color: $red;
+  }
+}

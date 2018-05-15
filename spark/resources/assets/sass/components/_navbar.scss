@@ -1,0 +1,74 @@
+// Custom Navbar
+// -------------------------------------------------------------------------- */
+.navbar-spark {
+  background-color: $white;
+  box-shadow: 0 2px 4px rgba($black, 0.04);
+
+  i {
+    opacity: 0.6;
+  }
+}
+
+// Nav
+// -------------------------------------------------------------------------- */
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-right: 0;
+  padding-bottom: 5px;
+  padding-left: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $nav-link-color;
+
+  svg {
+    fill: currentColor;
+    margin-right: 15px;
+    color: $gray-500;
+    flex-shrink: 0;
+  }
+
+  &:hover {
+    font-weight: 600;
+    color: $primary;
+    svg {
+      fill: $primary;
+    }
+  }
+
+  &.active {
+    font-weight: 600;
+    color: $primary;
+    svg {
+      fill: $primary;
+    }
+  }
+}
+
+.spark-settings-tabs .nav-link {
+  padding-bottom: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $nav-link-color;
+}
+
+.nav-heading {
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: $gray-500;
+  letter-spacing: 1px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+.spark-nav-profile-photo {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}

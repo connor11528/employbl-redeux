@@ -1,0 +1,43 @@
+// Buttons
+// -------------------------------------------------------------------------- */
+.btn {
+  box-shadow: 0 1px 2px $gray-200;
+  font-size: 0.9375rem;
+}
+
+.btn-sm {
+  font-weight: 500;
+  font-size: 0.8125rem;
+}
+
+.btn-link {
+  box-shadow: none;
+}
+
+.btn-reset {
+  background: none;
+  padding: 0;
+  margin: 0;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-default {
+  background-color: $white;
+  border-color: $gray-300;
+  color: $gray-800;
+  font-weight: 300;
+  font-size: 1rem;
+
+  &:hover {
+    border-color: $gray-400;
+  }
+}
+
+.btn-outline-dark {
+  border-color: $gray-300;
+  color: $gray-700;
+  font-weight: 300;
+  box-shadow: none;
+}

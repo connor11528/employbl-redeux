@@ -1,0 +1,42 @@
+// Tables
+// -------------------------------------------------------------------------- */
+.table {
+  thead {
+    th {
+      background-color: hsl($brand-hue, 25%, 92%);
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+  tbody {
+    td {
+    }
+  }
+}
+
+.table-valign-middle {
+  td {
+    vertical-align: middle;
+  }
+}
+
+.th-fit,
+.td-fit {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.table-plan-price {
+  font-weight: 600;
+  color: $gray-800;
+}
+
+.table-plan-text {
+  color: $gray-600;
+}
+
+.card {
+  .table th, .table td{
+    padding: 0.75rem 1.25rem;
+  }
+}

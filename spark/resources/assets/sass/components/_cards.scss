@@ -1,0 +1,59 @@
+// Cards
+// -------------------------------------------------------------------------- */
+.card {
+  margin-bottom: 2rem;
+
+  box-shadow: 0 2px 3px rgba($black, 0.16);
+  .card-header {
+    padding: 1rem 1.25rem;
+    // font-weight: 500;
+    // color: $gray-700;
+  }
+  .card-footer {
+    border-top: 1px solid $gray-300;
+    background-color: transparent;
+  }
+}
+
+.card-header:first-child {
+  border-radius: $card-border-radius;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.card-flush {
+  padding: 0.875rem 1.25rem;
+}
+
+.card-full {
+  width: 80%;
+}
+
+// Intro Cards
+// -------------------------------------------------------------------------- */
+.intro {
+  text-align: center;
+  // display: flex;
+  // align-items: center;
+  // align-content: center;
+  // justify-content: center;
+}
+
+.intro-img {
+  margin-bottom: 1.5rem;
+}
+
+.intro-headline {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.intro-copy {
+}
+
+.intro-btn {
+  margin-top: 1.5rem;
+}

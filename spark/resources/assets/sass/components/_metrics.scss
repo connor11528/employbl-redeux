@@ -1,0 +1,51 @@
+.metrics {
+  @include media-breakpoint-up(md) {
+    display: flex;
+  }
+}
+
+.metric {
+  display: flex;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+
+  border-bottom: 1px solid $gray-300;
+
+  &:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  @include media-breakpoint-up(md) {
+    flex: 1;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+}
+
+.metric-title {
+  font-size: 0.9375rem;
+  color: $gray-500;
+}
+
+.metric-stat {
+  font-weight: 100;
+  font-size: 1.875rem;
+  color: $black;
+}
+
+.metric-unit {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.metric-stat-sm {
+  font-size: 0.9375rem;
+  color: $black;
+}
+
+.metric-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
